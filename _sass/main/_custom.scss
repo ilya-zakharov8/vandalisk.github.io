@@ -7,7 +7,29 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+.theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 1.2rem;
+  outline: none;
+  transition: transform 0.3s ease;
+}
+.theme-toggle:hover {
+  transform: scale(1.1);
+}
+.theme-toggle-icon::before {
+  content: "🌙"; /* Show moon to switch to dark */
+}
+
+html[data-theme="dark"] {
+  .theme-toggle-icon::before {
+    content: "☀️"; /* Show sun to switch to light */
+  }
+
   body {
     background-color: #121212;
     color: #e0e0e0;
