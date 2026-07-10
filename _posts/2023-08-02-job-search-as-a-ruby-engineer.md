@@ -1,5 +1,5 @@
 ---
-title: Job search as a Ruby engineer
+title: Job search as a Ruby engineer in Germany
 layout: post
 categories: jekyll update
 ---
@@ -22,7 +22,7 @@ As soon as I left my job I started another one - interviewing full time with com
 There are not so many open positions at the moment.
 However, I was invited to the most opened ones to have an interview. After a few for each company it happens differently but with the same result - rejection. Some disappear, others write that they decided to move forward with another better suited to the role candidates.
 
-My personal favourites are - there are soft skills problems and overqualification. In one of the positions I was told that it was hard to follow what I am saying despite the spending 2-3 weeks already on coding challenge and architecture design that was successfully done. 
+My personal favourites are - there are soft skills problems and overqualification. In one of the positions I was told that it was hard to follow what I am saying despite the spending 2-3 weeks already on coding challenge and architecture design that was successfully done.
 
 After more than 8 years of production experince I am struggling to find a job. I am sure that it's not salary related because for the last month my salary negotiation strategy was - I am in need of an offer for any money, please make your evaluation based on my skills and knowledge.
 
