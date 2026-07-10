@@ -6,3 +6,59 @@
     border-radius: 50%;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  a {
+    color: #58a6ff;
+  }
+  a:visited {
+    color: #9e7cf3;
+  }
+  a:hover {
+    color: #ffffff;
+  }
+  .site-header {
+    border-bottom: 1px solid #333;
+    background-color: #121212;
+  }
+  .site-footer {
+    border-top: 1px solid #333;
+    background-color: #121212;
+  }
+  .site-title, .site-title:visited {
+    color: #e0e0e0;
+  }
+  .page-link {
+    color: #e0e0e0;
+  }
+  pre, code {
+    background-color: #2d2d2d;
+    border-color: #444;
+    color: #e0e0e0;
+  }
+  blockquote {
+    color: #aaa;
+    border-left-color: #444;
+  }
+  table {
+    color: #ccc;
+    border-color: #444;
+  }
+  table tr:nth-child(even) {
+    background-color: #1e1e1e;
+  }
+  table th {
+    background-color: #222;
+    border-color: #444;
+  }
+  table td {
+    border-color: #444;
+  }
+  .svg-icon {
+    fill: #e0e0e0;
+  }
+}
