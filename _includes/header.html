@@ -19,7 +19,7 @@
 
         <div class="trigger">
           <a class="page-link" href="{{ "/" | relative_url }}">Posts</a>
-          <a class="page-link" href="{{ "/projects/" | relative_url }}">Projects</a>
+          <!-- <a class="page-link" href="{{ "/projects/" | relative_url }}">Projects</a> -->
           <a class="page-link" href="{{ "/about/" | relative_url }}">About</a>
           <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Dark Mode">
             <span class="theme-toggle-icon"></span>
@@ -34,7 +34,7 @@
   document.getElementById('theme-toggle').addEventListener('click', function() {
     let currentTheme = document.documentElement.getAttribute('data-theme');
     let targetTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    
+
     document.documentElement.setAttribute('data-theme', targetTheme);
     localStorage.setItem('theme', targetTheme);
   });
