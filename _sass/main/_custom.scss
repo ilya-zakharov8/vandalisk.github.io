@@ -132,3 +132,65 @@ html[data-theme="dark"] .rss-subscribe-btn {
 html[data-theme="dark"] .rss-subscribe-btn:hover {
   background-color: #2a2a2a;
 }
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #666;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.back-button:hover {
+  color: #111;
+  transform: translateX(-4px);
+}
+
+html[data-theme="dark"] .back-button {
+  color: #aaa;
+}
+
+html[data-theme="dark"] .back-button:hover {
+  color: #fff;
+}
+
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.prev-post, .next-post {
+  font-size: 14px;
+  color: #666;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+  max-width: 45%;
+}
+
+.prev-post:hover {
+  color: #111;
+  transform: translateX(-4px);
+}
+
+.next-post {
+  text-align: right;
+}
+
+.next-post:hover {
+  color: #111;
+  transform: translateX(4px);
+}
+
+html[data-theme="dark"] .post-nav {
+  border-color: #333;
+}
+html[data-theme="dark"] .prev-post, html[data-theme="dark"] .next-post {
+  color: #aaa;
+}
+html[data-theme="dark"] .prev-post:hover, html[data-theme="dark"] .next-post:hover {
+  color: #fff;
+}
