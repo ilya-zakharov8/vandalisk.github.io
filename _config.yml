@@ -23,7 +23,7 @@ email: work.i.zakharov@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Ilya Zakharov's personal blog
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://vandalisk.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: vandalisk
 github_username:  vandalisk
 telegram_username: ilya_zakharov
