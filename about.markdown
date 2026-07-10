@@ -8,10 +8,10 @@ permalink: /about/
   <img src="/assets/images/profile_photo1.jpg" alt="Ilya Zakharov">
 </div>
 
-# Welcome to my personal website.
+# Welcome to my personal website
 
 My name is Ilya Zakharov.
 
-This is the place where I am going to share some of my thoughts that I find interesting.
+This is where I share personal thoughts and experiences about life, family, entrepreneurship, investments, technology, and anything else I find worth exploring.
 
-Below you can see links to my social media to follow more of my content or to reach me out.
+You can find links to my social profiles below if you would like to follow my work or get in touch.
