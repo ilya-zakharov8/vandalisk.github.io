@@ -86,18 +86,30 @@ html[data-theme="dark"] {
   .svg-icon {
     fill: #e0e0e0;
   }
+  .site-nav {
+    background-color: #121212;
+    border-color: #333;
+  }
+  .site-nav .menu-icon > svg path {
+    fill: #e0e0e0;
+  }
 }
 
 .svg-icon {
   fill: #111;
 }
 
-.page-link {
-  display: inline-block;
+@media screen and (min-width: 600px) {
+  .page-link, .site-title {
+    display: inline-block;
+  }
 }
 
-.site-title {
-  display: inline-block;
+@media screen and (max-width: 600px) {
+  .theme-toggle {
+    display: block;
+    margin: 10px 0 10px auto;
+  }
 }
 
 .page-link, .post-link, .site-title, .social-media-list a {
