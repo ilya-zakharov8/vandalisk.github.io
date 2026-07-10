@@ -35,10 +35,11 @@ html[data-theme="dark"] {
     color: #e0e0e0;
   }
   a {
-    color: #58a6ff;
+    color: #ffffff;
+    text-decoration: none;
   }
   a:visited {
-    color: #9e7cf3;
+    color: #ffffff;
   }
   a:hover {
     color: #ffffff;
@@ -53,9 +54,11 @@ html[data-theme="dark"] {
   }
   .site-title, .site-title:visited {
     color: #e0e0e0;
+    text-decoration: none;
   }
   .page-link {
     color: #e0e0e0;
+    text-decoration: none;
   }
   pre, code {
     background-color: #2d2d2d;
@@ -87,4 +90,45 @@ html[data-theme="dark"] {
 
 .svg-icon {
   fill: #111;
+}
+
+.page-link {
+  display: inline-block;
+}
+
+.site-title {
+  display: inline-block;
+}
+
+.page-link, .post-link, .site-title, .social-media-list a {
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.page-link:hover, .post-link:hover, .site-title:hover, .social-media-list a:hover {
+  opacity: 0.6;
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.rss-subscribe-btn {
+  display: inline-block;
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  text-decoration: none !important;
+}
+
+.rss-subscribe-btn:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+}
+
+html[data-theme="dark"] .rss-subscribe-btn {
+  border-color: #444;
+}
+
+html[data-theme="dark"] .rss-subscribe-btn:hover {
+  background-color: #2a2a2a;
 }
